@@ -15,6 +15,12 @@
 		C57CF81526EF4F1600957D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57CF81326EF4F1600957D61 /* LaunchScreen.storyboard */; };
 		C57CF82026EF4F1600957D61 /* RobotDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF81F26EF4F1600957D61 /* RobotDemoTests.swift */; };
 		C57CF82B26EF4F1600957D61 /* RobotDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF82A26EF4F1600957D61 /* RobotDemoUITests.swift */; };
+		C57CF84D26EF4FDB00957D61 /* Mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF84C26EF4FDB00957D61 /* Mars.swift */; };
+		C57CF84E26EF4FDB00957D61 /* Mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF84C26EF4FDB00957D61 /* Mars.swift */; };
+		C57CF84F26EF4FDB00957D61 /* Mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF84C26EF4FDB00957D61 /* Mars.swift */; };
+		C57CF85F26EF811300957D61 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF84226EF4FC500957D61 /* Robot.swift */; };
+		C57CF86326EF811400957D61 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF84226EF4FC500957D61 /* Robot.swift */; };
+		C57CF86426EF811500957D61 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57CF84226EF4FC500957D61 /* Robot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		C57CF82626EF4F1600957D61 /* RobotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57CF82A26EF4F1600957D61 /* RobotDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDemoUITests.swift; sourceTree = "<group>"; };
 		C57CF82C26EF4F1600957D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57CF84226EF4FC500957D61 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		C57CF84C26EF4FDB00957D61 /* Mars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 		C57CF80726EF4F1200957D61 /* RobotDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C57CF83F26EF4F8300957D61 /* Model */,
+				C57CF84026EF4F8D00957D61 /* View */,
+				C57CF84126EF4F9700957D61 /* ViewController */,
 				C57CF80826EF4F1200957D61 /* AppDelegate.swift */,
 				C57CF80A26EF4F1200957D61 /* SceneDelegate.swift */,
 				C57CF80C26EF4F1200957D61 /* ViewController.swift */,
@@ -126,6 +137,29 @@
 				C57CF82C26EF4F1600957D61 /* Info.plist */,
 			);
 			path = RobotDemoUITests;
+			sourceTree = "<group>";
+		};
+		C57CF83F26EF4F8300957D61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C57CF84226EF4FC500957D61 /* Robot.swift */,
+				C57CF84C26EF4FDB00957D61 /* Mars.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C57CF84026EF4F8D00957D61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C57CF84126EF4F9700957D61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57CF85F26EF811300957D61 /* Robot.swift in Sources */,
 				C57CF80D26EF4F1200957D61 /* ViewController.swift in Sources */,
 				C57CF80926EF4F1200957D61 /* AppDelegate.swift in Sources */,
 				C57CF80B26EF4F1200957D61 /* SceneDelegate.swift in Sources */,
+				C57CF84D26EF4FDB00957D61 /* Mars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57CF82026EF4F1600957D61 /* RobotDemoTests.swift in Sources */,
+				C57CF86326EF811400957D61 /* Robot.swift in Sources */,
+				C57CF84E26EF4FDB00957D61 /* Mars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57CF82B26EF4F1600957D61 /* RobotDemoUITests.swift in Sources */,
+				C57CF86426EF811500957D61 /* Robot.swift in Sources */,
+				C57CF84F26EF4FDB00957D61 /* Mars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
